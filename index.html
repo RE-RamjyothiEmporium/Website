@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ramjyothi Emporium - One Dream at a Time</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="font.css" />
+
+  <!-- Script (deferred) -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header id="navbar">
+    <div class="container nav-container">
+      <h1>Ramjyothi Emporium</h1>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#stats">Stats</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <div id="themeToggle" class="theme-toggle" title="Toggle Theme">🌙</div>
+        <div id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <h2>Designing Comfort. Delivering Dreams.</h2>
+      <p>Explore premium furniture & home appliances at the best prices in Villupuram District.</p>
+      <a href="#products" class="btn">Explore Our Collection</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p><strong>Ramjyothi Emporium</strong> — where comfort meets craftsmanship.  
+      We provide an extensive range of stylish furniture and home appliances at unbeatable prices.  
+      Based in Villupuram District, we believe in helping every family build their dream home — one dream at a time.  
+      Our focus is on delivering quality, durability, and beauty that turns your house into a true home.</p>
+      <p>With years of trusted service and thousands of satisfied customers, we are proud to be your go-to destination for furniture and lifestyle solutions.</p>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="section products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <!-- productGrid is populated by script.js -->
+      <div id="productGrid" class="product-grid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section id="stats" class="section stats">
+    <div class="container">
+      <h2>Our Achievements</h2>
+      <div class="stats-grid">
+        <div><h3 class="counter" data-target="500">0</h3><p>Happy Customers</p></div>
+        <div><h3 class="counter" data-target="200">0</h3><p>Premium Products</p></div>
+        <div><h3 class="counter" data-target="50">0</h3><p>Trusted Brands</p></div>
+        <div><h3 class="counter" data-target="10">0</h3><p>Years of Service</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Visit us or get in touch for personalized service and product inquiries.</p>
+      <ul>
+        <li>📍 No: 44, T V MALAI MAIN ROAD, V. PUDHUPALAYAM, Kedar, Tamil Nadu 605402</li>
+        <li>📞 Phone: <a href="tel:+918189941544">+91 81899 41544</a></li>
+        <li>✉️ Email: <a href="mailto:ramjyothiemporium@gmail.com">ramjyothiemporium@gmail.com</a></li>
+      </ul>
+      <div class="map">
+        <iframe
+          src="https://maps.google.com/maps?q=12.010211379828352,79.40887941534338&z=15&output=embed"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" aria-hidden="false">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918189941544" target="_blank" class="whatsapp-float" title="Chat with us on WhatsApp" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat" />
+  </a>
+
+  <footer>
+    <p>© 2025 Ramjyothi Emporium. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
